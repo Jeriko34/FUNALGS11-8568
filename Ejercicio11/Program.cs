@@ -9,3 +9,4 @@ for ( int x=0; x < n; x++ )
 }
 Console.WriteLine("¿Le gusta los números pares o impares? (P/I)");
 Console.WriteLine("chevere tu huev");
+Console.WriteLine("Hola mundo");
