@@ -1,14 +1,11 @@
-﻿int[] numero = new int [1];
-Random n = new Random();
+﻿Console.WriteLine("Ingrese la cantidad de numeros que desea:");
+int n = int.Parse(Console.ReadLine());
+int[] numeros = new int[n];
+Random rnd = new Random();
 
-Console.WriteLine("Ingrese la cantidad de valores que gustes");
-int num= int.Parse(Console.ReadLine());
-
-for (int x = 0; x > num; num++)
+for ( int x=0; x < n; x++ )
 {
-    numero[x] = n.Next(50, 90); 
+    numeros[x] = rnd.Next(50, 90);
 }
-Console.WriteLine("¿Le gusta los números pares o impares? (p/i)");
-string tipo = Console.ReadLine();
+Console.WriteLine("¿Le gusta los números pares o impares? (P/I)");
 
-if (numero )
